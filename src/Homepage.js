@@ -27,7 +27,7 @@ export default class extends React.Component {
         <h1>{fields.headline}</h1>
         <img src={fields.hero_image} />
         <button>{fields.call_to_action}</button>
-        <h3>Customers Love Filias!</h3>
+        <h3>Customers Love Peter Filias and all that he does!</h3>
         <ul>
           {fields.customer_logos.map((logo) => {
             return (
